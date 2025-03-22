@@ -1,0 +1,28 @@
+/** 
+Theme Name: FanX Child Theme 2025
+Text Domain: fanX-child-theme-2025
+Template: twentytwentyfive
+Author: Ashlie Elizabeth Moore 
+Author URI: https://DancingFraxinus.com
+Domain Path: /assets/languages
+Description: A Child theme created for FanX to suppliment the Twenty Twenty Five Theme paired with the Divi builder, ACF Pro, amd more. 
+Tags: twentytwentyfive, child theme, FanX, Divi Builder, ACF Pro, DP Plugins, Divi Supreme Pro, Accessible, Responsive, inlusive, Cusomized Category & Tag Functions, Customized Admin
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html 
+**/
+
+
+/* Admin Colums*/
+
+/*Thumnails*/
+td.thumbnail{
+    width: 100% !important; 
+}
+td.thumbnail.column-thumbnail img {
+    width: 90% !important;
+    max-height: 100px !important;
+    height: auto !important;
+    object-fit: cover !important; 
+    border-radius: 0px !important; 
+            }

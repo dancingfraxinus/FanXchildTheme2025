@@ -1,0 +1,94 @@
+{
+    "key": "group_basic",
+    "title": "Basic",
+    "fields": [
+        {
+            "key": "field_67de726201dc5",
+            "label": "Featured Image",
+            "name": "profile_img",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "uploader": "",
+            "return_format": "array",
+            "library": "all",
+            "acfe_thumbnail": 1,
+            "acfe_settings": "",
+            "acfe_validate": {
+                "67de888b6b015": {
+                    "acfe_validate_location": "",
+                    "acfe_validate_rules_and": "",
+                    "acfe_validate_error": ""
+                }
+            },
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "acfe_permissions": [
+                "administrator",
+                "editor",
+                "author",
+                "contributor"
+            ],
+            "allow_in_bindings": 0,
+            "preview_size": "medium"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "field",
+    "hide_on_screen": [
+        "block_editor",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": true,
+    "description": "Guests, Features, Tickets, Partners, Pages, Taxonomy & Blog (temporary)",
+    "show_in_rest": 1,
+    "acfe_display_title": "basic",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_permissions": [
+        "administrator",
+        "editor",
+        "author",
+        "contributor"
+    ],
+    "acfe_form": 1,
+    "acfe_meta": "",
+    "acfe_note": "A starting off point to standardize all content",
+    "modified": 1742637316
+}
